@@ -240,8 +240,8 @@ module.exports = {
 	/* 4 */		{name:"Mempool Summary", url:"./mempool-summary", desc:"Detailed summary of the current mempool for this node.", iconClass:"bi-hourglass-split"},
 	/* 5 */		{name:"Browse Mempool", url:"./mempool-transactions", desc:"Browse unconfirmed/pending transactions.", iconClass:"bi-book"},
 
-	/* 6 */		{name:"RPC Browser", url:"./rpc-browser", desc:"Browse the RPC functionality of this node. See docs and execute commands.", iconClass:"bi-journal-text"},
-	/* 7 */		{name:"RPC Terminal", url:"./rpc-terminal", desc:"Directly execute RPCs against this node.", iconClass:"bi-terminal"},
+	/* 6 */		{name:"RPC Browser", url:"./", desc:"Browse the RPC functionality of this node. See docs and execute commands.", iconClass:"bi-journal-text"},
+	/* 7 */		{name:"RPC Terminal", url:"./", desc:"Directly execute RPCs against this node.", iconClass:"bi-terminal"},
 
 	/* 8 */		{name:(coins[currentCoin].name + " Fun"), url:"./fun", desc:"Curated fun/interesting historical blockchain data.", iconClass:"bi-flag"},
 
